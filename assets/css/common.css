@@ -1,0 +1,151 @@
+.blind{
+    position: absolute;
+    width: 1px; height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+.inner{width: 1152px; margin: 0 auto;}
+h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* 비주얼슬라이드 */
+.sc-visual .swiper .control-area .btn-prev,
+.sc-visual .swiper .control-area .btn-autoplay,
+.sc-visual .swiper .control-area .btn-next{
+background-image: url(https://www.seoul.go.kr/res_newseoul/images/main/icon_set_common_2019.png);
+background-size: 300px 300px;
+background-repeat: no-repeat;
+}
+
+header .group-top .logo::after,
+header .btn-submit::before,
+.sc-bannerslide .swiper .control-area .btn-prev,
+.sc-bannerslide .swiper .control-area .btn-next,
+.sc-bannerslide .swiper .control-area .btn-autoplay{
+background:url(	https://www.seoul.go.kr/res_newseoul/images/icon_set_common.png) no-repeat -5px -165px;
+}
+    
+
+/* 잠시 가려놈.sc-service .group-head .link-story:hover,
+.sc-service .group-head .link-festi:hover,
+.sc-service .group-head .link-story::before,
+.sc-service .link-festi::after{
+    
+    background: url(https://www.seoul.go.kr/res_newseoul/images/main/logo_event.png);
+    background-size: 160px 60px;
+    background-repeat: no-repeat;
+} */
+
+/* .sc-service .group-head .link-story{
+    background: url(https://www.seoul.go.kr/res_newseoul/images/main/logo_event.png) no-repeat 0 0;
+} */
+
+/* 슬라이더 */
+.sc-visual .group-nav [class*="btn-"]::before
+{background: url(https://www.seoul.go.kr/res_newseoul/images/main/icon_main_2019.png) no-repeat 0 0;}
+
+/* header logo~ */
+
+header .header1-area .logo .seoul::after
+{background: url(https://www.seoul.go.kr/res_newseoul/images/icon_set_common.png) no-repeat -5px -165px;}
+
+/* 동행서울.. */
+
+
+header .group-bottom .slogan::after
+{background: url(https://www.seoul.go.kr/res_newseoul/images/common/seoul-slogan.png) no-repeat 0 0;}
+
+
+/* 검색창 돋보기 */
+.inner2 .sc-board .more::after,
+.blue-bd .btn-text::after,
+.sc-news .all::after
+{   background: url(https://www.seoul.go.kr/res_newseoul/images/icon_set_common.png) ;  
+    background-size: 300px auto;
+    background-repeat: no-repeat;}
+
+
+
+    /* 주요서비스 */
+
+.sc-service .service-item .answer::before,
+.group-flex2 .event-area .more::after,
+.sc-service .service-item .public::before,
+.sc-service .service-item .work::before,
+.sc-service .service-item .real::before,
+.sc-service .service-item .study::before,
+.sc-service .service-item .wel::before,
+.sc-service .service-item .house::before,
+.sc-service .service-item .youth::before,
+.sc-service .service-item .hand::before,
+.sc-service .service-item .image::before,
+.sc-service .service-item .ebook::before,
+.sc-service .service-item .council::before{
+    background-image: url(https://www.seoul.go.kr/res_newseoul/images/main/icon_set_service_202205.png);
+    background-size: 1200px 60px;
+    background-repeat: no-repeat;}
+
+
+
+    /* 서울시sns */
+
+    .group-flex4 .sc-sns .blind::before{
+        background-image:url(https://www.seoul.go.kr/res_newseoul/images/main/ico_sns_list_202205.png?ver=20210113);
+        background-size: 280px 40px;
+        background-repeat:no-repeat;}
+
+
+
+
+/* 분야별정보 */
+
+.sc-info .info-list .info-item .house::before,
+.sc-info .info-list .info-item .econo::before,
+.sc-info .info-list .info-item .traffic::before,
+.sc-info .info-list .info-item .envior::before,
+.sc-info .info-list .info-item .wel::before,
+.sc-info .info-list .info-item .safe::before,
+.sc-info .info-list .info-item .cult::before,
+.sc-info .info-list .info-item .work::before{
+    background-image: url(../img/css_sprites.png);
+    background-size: 315px 315px;
+    background-repeat:no-repeat;
+}
+
+/* 새소식 전체보기 */
+.sc-news .all::after{
+    background: url(https://www.seoul.go.kr/res_newseoul/images/icon_set_common.png) no-repeat 0 -259px;;
+}
+
+
+/* sns마크 */
+.sc-media .sc-sns .ic-insta::before,
+.sc-media .sc-sns .ic-face::before,
+.sc-media .sc-sns .ic-twitt::before,
+.sc-media .sc-sns .ic-blog::before,
+.sc-media .sc-sns .ic-youtube::before,
+.sc-media .sc-sns .ic-kakao::before{
+    background-image: url(https://www.seoul.go.kr/res_newseoul/images/main/ico_sns_list_202205.png?ver=20210401);
+    background-size: 280px 40px;
+    background-repeat: no-repeat;
+}
+
+
+/* footer sns마크 */
+.footer .nuri-area .sns-item .face::after,
+.footer .nuri-area .sns-item .twitt::after,
+.footer .nuri-area .sns-item .insta::after,
+.footer .nuri-area .sns-item .kakao::after,
+.footer .nuri-area .sns-item .youtube::after,
+.footer .nuri-area .sns-item .nblog::after,
+.footer .nuri-area .sns-item .face:hover::after{
+    background:url(https://www.seoul.go.kr/res_newseoul/images/main/icon_set_sns.png) no-repeat 0 0;}
+
+/* 문의120 ...*/
+
+
+.footer .info-area .ask::before{
+    background:url(https://www.seoul.go.kr/res_newseoul/images/icon_set_common.png) no-repeat -180px 0;}

@@ -1,0 +1,32 @@
+:root {-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;
+    text-size-adjust:100%;cursor:default;overflow-wrap:break-word;
+    -moz-tab-size:4;tab-size:4;
+
+    --font-kr:'Nanum Gothic', sans-serif;
+ 
+    
+}
+
+*{margin:0;padding:0;font:inherit;color:inherit;}
+*, :after, :before {box-sizing:border-box;flex-shrink:0;}
+/* flex-shrink:0 확인할것. */
+
+
+/* 구글 recet.css  다시써보기 */
+html, body {height:100%; line-height: 1;}
+/* lh0.5지우고 1로 바꾸기 */
+img, picture, video, canvas, svg {display: block;max-width:100%;}
+button {background:none;border:0;cursor:pointer;}
+a {text-decoration:none}
+table {border-collapse:collapse;border-spacing:0}
+ul{list-style: none;}
+fieldset{border: 0;}
+
+
+
+body{
+    font-size: 16px;
+    color: #222;
+    -webkit-font-smoothing: antialiased;
+    font-family: var(--font-kr);
+}
